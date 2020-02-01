@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+
+.section {
+  min-width: 100vw;
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  
+  
+  }
+  .cards {
+    border: 1px solid black;
+    width: 400px;
+    height:500px;
+  }
+  h2 {
+    padding-left: 120px;
+  }
+
+  .mine  {
+    padding-left: 60px;
+  }
+   .list {
+  
+    list-style-type: none;
+    
+  }
+  .list li {
+    color: #333;
+  margin-bottom: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    height: 25px;
+    width: 235px;
+    transition: backgroundcolor .2s ease-out;
+  }
+  .list li:hover {
+    background:red;
+    cursor: pointer;
+  }
+  
+
+.btn {
+  background-color: #000000;
+  border-color: #000000;
+  color: white;
+}
