@@ -51,7 +51,7 @@ deleteItem(key) {
       <form onSubmit = {this.addItem}>
         <div className = "mine">
       <input className = "taskBar" ref ={(a) => this._inputElement=a}
-       placeholder ="task"/>
+       placeholder ="add a task"/>
       <button className = "btn" type ="submit">Add task</button>
       </div>
       </form>

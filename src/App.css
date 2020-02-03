@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -12,7 +13,8 @@ body {
   
   }
   .cards {
-    border: 1px solid black;
+    margin-top: 40px;
+    border: 1px solid brown;
     width: 400px;
     height:500px;
   }
@@ -31,13 +33,14 @@ body {
   .list li {
     color: #333;
   margin-bottom: 8px;
+  margin-left: 20px;
     border: 1px solid black;
     border-radius: 5px;
     text-align: center;
     font-size: 16px;
     height: 25px;
     width: 235px;
-    transition: backgroundcolor .2s ease-out;
+    transition: background .2s ease-out;
   }
   .list li:hover {
     background:red;
@@ -49,4 +52,12 @@ body {
   background-color: #000000;
   border-color: #000000;
   color: white;
+}
+.bbtn {
+  background-color: brown;
+  border: 0px;
+  color: white;
+ margin-left: 60px;
+ font-size: 11px;
+ line-height: 20px;
 }
